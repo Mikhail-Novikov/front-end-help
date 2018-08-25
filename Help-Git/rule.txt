@@ -1,0 +1,28 @@
+инициализируем пустой репозиторий в нашей папке
+git init
+
+добавить свои файлы
+git add .
+
+
+git commit -m "Initial Commit" -a
+
+git push origin master
+
+смотрим доступные ветви
+git branch -a
+
+ветвь для разработки
+git checkout -b develop
+
+Переключаться между ветвями
+git checkout master
+git checkout develop
+(git add develop)
+(git commit -m "develop file" develop)
+
+Смотрим текущую ветку
+git branch
+
+объединить две ветви
+git merge develop --no-ff
